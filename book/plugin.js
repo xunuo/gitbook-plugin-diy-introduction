@@ -6,6 +6,7 @@ require(["gitbook"], function(gitbook) {
     	if(!pluginConfig || !pluginConfig['introduction-text'])return;
 		var introText = pluginConfig['introduction-text'] ? pluginConfig['introduction-text'] : 'Introduction';
         $('.summary li[data-level="0"] a').html(introText);
+        document.title = document.title.replace('Introduction',introText);
     };
 
     gitbook.events.bind("start", function(e, config) {

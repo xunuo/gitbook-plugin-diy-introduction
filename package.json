@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-diy-introduction",
     "description": "Gitbook 定制侧边栏Introduction文案插件",
     "main": "index.js",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "engines": {
         "gitbook": "*"
     },
