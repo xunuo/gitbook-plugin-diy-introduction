@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-plugin-diy-introduction",
+    "description": "Gitbook 定制侧边栏Introduction文案插件",
+    "main": "index.js",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/xunuo/gitbook-plugin-diy-introduction",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xunuo/gitbook-plugin-diy-introduction.git"
+    },
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/xunuo/gitbook-plugin-diy-introduction/issues"
+    }
+}
